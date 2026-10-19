@@ -1,7 +1,7 @@
 interface:
-  display_name: Web Güvenlik Denetimi
+  display_name: Kira Security Audit
   short_description: Kanıta dayalı web güvenlik incelemesi ve raporu
-  default_prompt: Use $web-security-audit to inspect this project and produce an evidence-based
+  default_prompt: Use $kira-security-audit to inspect this project and produce an evidence-based
     security report in Turkish.
   icon_small: assets/icon.svg
   icon_large: assets/icon.svg
