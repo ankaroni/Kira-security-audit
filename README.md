@@ -19,14 +19,14 @@ Projenin ana klasöründe çalıştırın:
 
 ```bash
 mkdir -p .claude/skills
-git clone https://github.com/ankaroni/Kira-security-audit.git .claude/skills/web-security-audit
+git clone https://github.com/ankaroni/Kira-security-audit.git .claude/skills/kira-security-audit
 ```
 
 Bu hedef klasör zaten varsa üzerine kopyalamayın; mevcut sürümü inceleyin.
 Ardından Claude Code içinde:
 
 ```text
-/web-security-audit
+/kira-security-audit
 ```
 
 Örnek istek:
@@ -35,7 +35,7 @@ Ardından Claude Code içinde:
 > İncelenen ve incelenmeyen alanları göster. Kanıtlanmış bulguları
 > doğrulanamayan şüphelerden ayır. Türkçe rapor üret.
 
-Depo adı Kira Security Audit; skill komutunun adı `web-security-audit`.
+Depo adı Kira Security Audit; skill komutunun adı `kira-security-audit`.
 `agents/openai.yaml` diğer uyumlu istemciler için arayüz metadatasıdır; Claude Code kurulumu için zorunlu değildir.
 
 ## İş akışı
@@ -67,7 +67,7 @@ Kanıt durumları: **reproduced** (testle), **code-confirmed** (tam kod akışı
 - `agents/`: uyumlu istemciler için metadata
 
 ```bash
-python3 .claude/skills/web-security-audit/scripts/validate_findings.py security-audit/WORK_RUN/findings.json
+python3 .claude/skills/kira-security-audit/scripts/validate_findings.py security-audit/WORK_RUN/findings.json
 ```
 
 `WORK_RUN` yerine gerçek çıktı klasörünü kullanın. Boş şablon tamamlanmış rapor değildir; kapsam alanları doldurulmadan doğrulamadan geçmez.
