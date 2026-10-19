@@ -1,0 +1,14 @@
+interface:
+  display_name: Web Güvenlik Denetimi
+  short_description: Kanıta dayalı web güvenlik incelemesi ve raporu
+  default_prompt: Use $web-security-audit to inspect this project and produce an evidence-based
+    security report in Turkish.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
