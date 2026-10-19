@@ -1,9 +1,9 @@
 ---
-name: web-security-audit
+name: kira-security-audit
 description: Perform a deep, evidence-based security audit of an authorized website, backend, API, or repository and produce a Turkish security report with coverage, validated findings, remediation, and retest criteria. Use for full security reviews, vulnerability investigations, and security report requests; not for general styling or SEO reviews.
 ---
 
-# Web Security Audit
+# Kira Security Audit
 
 Produce a defensible report, not a list of alarming guesses. Default to Turkish output, full repository scope, review-only mode, and local isolated validation. Follow the user's explicit scope. Do not imply this skill guarantees security or replaces a penetration test.
 
